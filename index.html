@@ -25,36 +25,63 @@
 
 <body>
 
-  <div class="container">
+    <div class="container">
         <div class="row">
 
             <div class="col-md-8 col-sm-12 mx-auto">
-                <h1>Global Tea Statistics</h1>
+                <h1 class="text-center">Global Tea Statistics</h1>
                 <img src="img/tea1.jpg" />
+                <p>Tea is one of the most popular drinks in the world. Served warm, it's a soothing cup of comfort;
+                    poured over ice, it's a refreshing pick-me-up. The brew is steeped in cultural significance in many
+                    countries, a staple of relaxation, tranquility, hospitality, connection, and tradition.</p>
+            </div>
+
+            <div class="row">     
+                <h2 class="text-center">Top 10 Most Consumed Beverages</h2>
+                <p>Tea is the second most consumed drink after water.</p>
+                <div class="col"><canvas id="Drinks"></canvas></div>
+                <div class="col"><img src="img/tea2.png"></div>
+
+            </div>
+
+            <div class="row">
+                <h2 class="text-center">Global Tea Consumption by Country</h2>  
+                <p>Turkey consumes the most tea annually. A typical Turk consumes an average of 5 cups of tea per day,
+                    amounting to 1300 cups of tea per year.</p>
+                    <div class="col"><img src="img/tea3.png"></div>
+                <div class="col"></div><canvas id="Consume"></canvas></div>
             </div>
 
             <div class="col-md-8 col-sm-12 mx-auto">
-                <h2>Top 10 Most Consumed Beverages</h2>
-                <canvas id="Drinks"></canvas>
-            </div>
-
-            <div class="col-md-8 col-sm-12 mx-auto">
-                <h2>Global Tea Consumption by Country</h2>
-                <canvas id="Consume"></canvas>
-            </div>
-
-            <div class="col-md-8 col-sm-12 mx-auto">
-                <h2>Global Tea Production by Country</h2>
+                <h2 class="text-center">Global Tea Production by Country</h2>
+                <p>Global tea production is led by China, with a significant margin over India, which ranks second.
+                    Kenya, Vietnam, and Sri Lanka round out the top five producers. In 2023, notable growth rates were
+                    observed in Bangladesh and Tanzania, while declines were seen in Iran and South Africa. Over the
+                    past five years, China and India have shown consistent growth, contributing to the overall positive
+                    trend in global tea production.</p>
                 <canvas id="Produce"></canvas>
             </div>
 
             <div class="col-md-8 col-sm-12 mx-auto">
-                <h2>Global Tea Export Volume by Country</h2>
+                <h2 class="text-center">Global Tea Export Volume by Country</h2>
+                <p>The global mate and tea export volume in 2023 was dominated by countries like Kenya, China, and
+                    India. Kenya led with 574 thousand metric tons, boosted by a year-on-year growth of 2.68%. China's
+                    exports grew by 1.18%, while India's saw a 1.37% increment. Sri Lanka's exports slightly contracted
+                    by 1.01%, while Argentina's remained relatively stable. Vietnam and Myanmar experienced notable
+                    growth rates of 4.46% and 4.56%, respectively. In contrast, countries like Iran and Austria faced
+                    significant declines of 22.88% and 12.94%, respectively.</p>
                 <canvas id="Export"></canvas>
             </div>
 
             <div class="col-md-8 col-sm-12 mx-auto">
-                <h2>Global Tea Import Volume Shared by Country</h2>
+                <h2 class="text-center">Global Tea Import Volume Shared by Country</h2>
+                <p>In 2023, Pakistan led the global mate and tea import volume, followed by the United States and
+                    Russia. Noteworthy shifts included Pakistan's 1.33% growth and significant declines in the United
+                    States and Germany by -0.33% and -2.68%, respectively. Yemen showed a remarkable 5.64% increase,
+                    while Myanmar's imports surged by 8.45%. Conversely, countries like Hungary and Ghana saw major
+                    contractions at -12.94% and -100%, respectively. The average growth rate over the past five years
+                    highlights gradual yet steady changes in market dynamics.
+                    </p>
                 <canvas id="Import"></canvas>
             </div>
 
