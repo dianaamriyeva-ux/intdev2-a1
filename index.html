@@ -3,35 +3,28 @@
 
 <head>
 
-    <!-- METADATA GOES HERE -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment1</title>
+    <title>Tea Statistics</title>
     <link href="style.css" rel="stylesheet">
 
-    <!-- BOOTSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -44,8 +37,7 @@
                 <h1 class="text-center py-3">Global Tea Statistics</h1>
                 <img src="img/tea1.jpg" />
                 <p class="pt-3">Tea is one of the most popular drinks in the world. Served warm, it's a soothing cup of
-                    comfort;
-                    poured over ice, it's a refreshing pick-me-up. The brew is steeped in cultural significance in many
+                    comfort; poured over ice, it's a refreshing pick-me-up. The brew is steeped in cultural significance in many
                     countries, a staple of relaxation, tranquility, hospitality, connection, and tradition.</p>
             </div>
 
@@ -64,44 +56,44 @@
             <div class="row col-10 mx-auto pt-5">
                 <h2 class="text-center py-3">Global Tea Consumption by Country</h2>
                 <p>Turkey consumes the most tea annually. A typical Turk consumes an average of 5 cups of tea per day,
-                    amounting to 1300 cups of tea per year. The tea market in Turkey was worth US$5549.5m in 2020</p>
+                    amounting to 1300 cups of tea per year. The tea market in Turkey was worth US$5549.5m in 2020.</p>
                 <div class="col pt-3"><img src="img/tea10.png"></div>
                 <div class="col"><canvas id="Consume"></canvas></div>
             </div>
 
-        <div class="row col-10 mx-auto pt-5">
-            <h2 class="text-center py-3">Global Tea Production by Country</h2>
-            <p>Global tea production is led by China, with a significant margin over India, which ranks second.
-                Kenya, Vietnam, and Sri Lanka round out the top five producers. In 2023, notable growth rates were
-                observed in Bangladesh and Tanzania, while declines were seen in Iran and South Africa. Over the
-                past five years, China and India have shown consistent growth, contributing to the overall positive
-                trend in global tea production.</p>
-            <div class="col pt-3"><canvas id="Produce"></canvas></div>
-            <div class="col"><img src="img/tea12.png"></div>
-        </div>
+            <div class="row col-10 mx-auto pt-5">
+                <h2 class="text-center py-3">Global Tea Production by Country</h2>
+                <p>Global tea production is led by China, with a significant margin over India, which ranks second.
+                    Kenya, Vietnam, and Sri Lanka round out the top five producers. In 2023, notable growth rates were
+                    observed in Bangladesh and Tanzania, while declines were seen in Iran and South Africa. Over the
+                    past five years, China and India have shown consistent growth, contributing to the overall positive
+                    trend in global tea production.</p>
+                <div class="col pt-3"><canvas id="Produce"></canvas></div>
+                <div class="col"><img src="img/tea12.png"></div>
+            </div>
 
-        <div class="col-10 mx-auto pt-5">
-            <h2 class="text-center py-3">Global Tea Export Volume by Country</h2>
-            <p>The global mate and tea export volume in 2023 was dominated by countries like Kenya, China, and
-                India. Kenya led with 574 thousand metric tons, boosted by a year-on-year growth of 2.68%. China's
-                exports grew by 1.18%, while India's saw a 1.37% increment. Sri Lanka's exports slightly contracted
-                by 1.01%, while Argentina's remained relatively stable. Vietnam and Myanmar experienced notable
-                growth rates of 4.46% and 4.56%, respectively. In contrast, countries like Iran and Austria faced
-                significant declines of 22.88% and 12.94%, respectively.</p>
-            <canvas id="Export"></canvas>
-        </div>
+            <div class="col-10 mx-auto pt-5">
+                <h2 class="text-center py-3">Global Tea Export Volume by Country</h2>
+                <p>The global mate and tea export volume in 2023 was dominated by countries like Kenya, China, and
+                    India. Kenya led with 574 thousand metric tons, boosted by a year-on-year growth of 2.68%. China's
+                    exports grew by 1.18%, while India's saw a 1.37% increment. Sri Lanka's exports slightly contracted
+                    by 1.01%, while Argentina's remained relatively stable. Vietnam and Myanmar experienced notable
+                    growth rates of 4.46% and 4.56%, respectively. In contrast, countries like Iran and Austria faced
+                    significant declines of 22.88% and 12.94%, respectively.</p>
+                <canvas id="Export"></canvas>
+            </div>
 
-        <div class="col-10 mx-auto pt-5">
-            <h2 class="text-center py-3">Global Tea Import Volume Shared by Country</h2>
-            <p>In 2023, Pakistan led the global mate and tea import volume, followed by the United States and
-                Russia. Noteworthy shifts included Pakistan's 1.33% growth and significant declines in the United
-                States and Germany by -0.33% and -2.68%, respectively. Yemen showed a remarkable 5.64% increase,
-                while Myanmar's imports surged by 8.45%. Conversely, countries like Hungary and Ghana saw major
-                contractions at -12.94% and -100%, respectively. The average growth rate over the past five years
-                highlights gradual yet steady changes in market dynamics.
-            </p>
-            <canvas id="Import"></canvas>
-        </div>
+            <div class="col-10 mx-auto pt-5">
+                <h2 class="text-center py-3">Global Tea Import Volume Shared by Country</h2>
+                <p>In 2023, Pakistan led the global mate and tea import volume, followed by the United States and
+                    Russia. Noteworthy shifts included Pakistan's 1.33% growth and significant declines in the United
+                    States and Germany by -0.33% and -2.68%, respectively. Yemen showed a remarkable 5.64% increase,
+                    while Myanmar's imports surged by 8.45%. Conversely, countries like Hungary and Ghana saw major
+                    contractions at -12.94% and -100%, respectively. The average growth rate over the past five years
+                    highlights gradual yet steady changes in market dynamics.
+                </p>
+                <canvas id="Import"></canvas>
+            </div>
         </div>
 
 
@@ -141,8 +133,7 @@
                     'rgba(155, 155, 122, 0.4)',
                 ],
 
-                borderColor: 'rgb(155, 155, 122)'
-
+                borderColor: 'rgb(155, 155, 122)',
             }
         });
     </script>
@@ -174,7 +165,6 @@
                     'rgba(155, 155, 122, 0.8)',
                     'rgba(121, 125, 98, 0.8)',
                 ],
-
             }
         });
     </script>
@@ -206,7 +196,6 @@
                     'rgba(155, 155, 122, 0.8)',
                     'rgba(121, 125, 98, 0.8)',
                 ],
-
             }
         });
     </script>
@@ -228,8 +217,6 @@
             options: {
                 backgroundColor: 'rgba(153, 123, 102, 0.5)',
                 borderColor: 'rgb(153, 123, 102)',
-
-
             }
         });
     </script>
@@ -254,8 +241,6 @@
             }
         });
     </script>
-
-
 
 </body>
 
